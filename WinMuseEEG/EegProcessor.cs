@@ -24,7 +24,11 @@ namespace WinMuseEEG
 
 		public void PushOscMessage(OscMessage oscMessage)
 		{
-			string data = string.Empty;
+			Eeg eeg = new Eeg(
+				(float)oscMessage.Arguments[0],
+				(float)oscMessage.Arguments[1],
+				(float)oscMessage.Arguments[2],
+				(float)oscMessage.Arguments[3]);
 		}
 	}
 }
