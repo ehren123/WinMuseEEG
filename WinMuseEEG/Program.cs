@@ -7,6 +7,7 @@ using SharpOSC;
 
 namespace WinMuseEEG
 {
+
 	class Program
 	{
 		static void Main(string[] args)
@@ -25,14 +26,14 @@ namespace WinMuseEEG
 						Console.Write(arg + " ");
 					}
 				}
-				if (addr == "/muse/elements/alpha_relative")
-				{
-					Console.Write("Relative Alpha power values: ");
-					foreach (var arg in messageReceived.Arguments)
-					{
-						Console.Write(arg + " ");
-					}
-				}
+//				if (addr == "/muse/elements/alpha_relative")
+//				{
+//					Console.Write("Relative Alpha power values: ");
+//					foreach (var arg in messageReceived.Arguments)
+//					{
+//						Console.Write(arg + " ");
+//					}
+//				}
 			};
 
 			// Create an OSC server.
