@@ -7,9 +7,10 @@ using SharpOSC;
 
 namespace WinMuseEEG
 {
-
+	
 	class Program
 	{
+		public event EventHandler<EegEventArgs> OnEeg;
 		static void Main(string[] args)
 		{
 			// Callback function for received OSC messages. 
