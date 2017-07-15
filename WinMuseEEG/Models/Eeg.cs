@@ -38,7 +38,7 @@ namespace WinMuseEEG.Models
 						Fp2 = (float)objs[2];
 						break;
 					case 3:
-						Tp9 = (float)objs[3];
+						Tp10 = (float)objs[3];
 						break;
 				}
 
