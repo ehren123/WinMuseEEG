@@ -1,0 +1,8 @@
+C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\WinMuseEEG.exe.config
+C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\WinMuseEEG.exe
+C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\WinMuseEEG.pdb
+C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\SharpOSC.dll
+C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\SharpOSC.pdb
+C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.csprojResolveAssemblyReference.cache
+C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.exe
+C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.pdb
