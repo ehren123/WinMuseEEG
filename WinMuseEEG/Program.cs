@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SharpOSC;
+using WinMuseEEG.Models;
 
 namespace WinMuseEEG
 {
@@ -21,11 +22,17 @@ namespace WinMuseEEG
 				var addr = messageReceived.Address;
 				if (addr == "/muse/eeg")
 				{
-					Console.Write("EEG values: ");
-					foreach (var arg in messageReceived.Arguments)
-					{
-						Console.Write(arg + " ");
-					}
+					//					Console.Write("EEG values: ");
+					var eeg = new Eeg();
+//					foreach (var arg in messageReceived.Arguments)
+//					{
+//						Console.Write(arg + " ");
+						
+
+//					}
+					OnEeg(this, new EegEventArgs(){Eeg = messageReceived.Arguments });
+
+
 				}
 //				if (addr == "/muse/elements/alpha_relative")
 //				{

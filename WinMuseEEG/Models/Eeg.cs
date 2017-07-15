@@ -21,5 +21,29 @@ namespace WinMuseEEG.Models
 			Fp2 = fp2;
 			Tp10 = tp10;
 		}
+
+		public Eeg(object[] objs)
+		{
+			for (int i = 0; i < 4; i++)
+			{
+				switch(i)
+				{
+					case 0:
+						Tp9 = (float)objs[0];
+						break;
+					case 1:
+						Fp1 = (float)objs[1];
+						break;
+					case 2:
+						Fp2 = (float)objs[2];
+						break;
+					case 3:
+						Tp9 = (float)objs[3];
+						break;
+				}
+
+				
+			}
+		}
 	}
 }
