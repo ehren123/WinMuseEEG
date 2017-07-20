@@ -6,3 +6,4 @@ C:\Code\WinMuseEEG\WinMuseEEG\bin\Debug\SharpOSC.pdb
 C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.csprojResolveAssemblyReference.cache
 C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.exe
 C:\Code\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.pdb
+C:\Code\CSharp\WinMuseEEG\WinMuseEEG\obj\Debug\WinMuseEEG.csprojResolveAssemblyReference.cache
